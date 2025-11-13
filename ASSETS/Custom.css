@@ -1,0 +1,21 @@
+.hero-bg {
+/* ajusta el nombre exacto del archivo */
+background-image: url("https://frasesdelavida.com/wp-content/uploads/2018/03/Ciencia-Ficcion-Banner.jpg");
+background-size: cover; /* llena el área sin deformar (puede recortar) */
+background-position: center; /* centrada */
+background-repeat: no-repeat;
+min-height: 360px; /* da alto mínimo al hero */
+}
+
+body {
+   background-color: rgb(91, 144, 209);
+}
+
+.galactic-title {
+  font-family: 'Orbitron', sans-serif; /* O prueba 'Audiowide' */
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.6),
+               0 0 20px rgba(0, 255, 255, 0.4);
+  color: #00eaff;
+  text-transform: uppercase;
+}
